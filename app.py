@@ -40,7 +40,3 @@ def experience():
 @app.route('/joke/')
 def joke():
     return "A programmer was arrested for writing unreadable code. He refused to comment"
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=105)
